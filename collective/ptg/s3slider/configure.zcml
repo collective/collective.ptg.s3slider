@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.s3slider">
+
+    <browser:resourceDirectory
+        name="ptg.s3slider"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IS3sliderDisplaySettings"
+        factory=".S3sliderSettings" />
+
+    <browser:page
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-s3slider"
+        class=".S3sliderDisplayType"
+        template="s3slider.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".S3sliderDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-s3slider" />
+
+</configure>
