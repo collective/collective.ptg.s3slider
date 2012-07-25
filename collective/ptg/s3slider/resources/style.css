@@ -1,5 +1,4 @@
 ul#s3sliderContent {
-   width: %(width)s;
    position: absolute;
    top: 0;
    margin-left: 0;
@@ -25,8 +24,6 @@ ul#s3sliderContent {
    color: #fff;
    display: none;
    top: 0;
-   height: %(height)s;
-   width: %(textwidth)s;
 }
 
 ul#s3sliderContent li {

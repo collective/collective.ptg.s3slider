@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.0.4 (2012-07-25)
+------------------
+
+- added norwegian translation [espen]
+- setting for "width" and "height" now works (again) [espen]
+
+
 1.0.3 (2012-07-24)
 ------------------
 

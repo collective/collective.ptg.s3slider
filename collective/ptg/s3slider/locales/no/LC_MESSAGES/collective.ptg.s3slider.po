@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-07-10 13:33+0000\n"
-"PO-Revision-Date: 2009-05-17 16:14+0100\n"
+"PO-Revision-Date: 2012-07-25 15:08+0100\n"
 "Last-Translator: Espen Moe-Nilssen <espen@medialog.no>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Espen Moe-Nilssen <espen@medialog.no>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,26 +13,28 @@ msgstr ""
 "Language-Name: Norwegian\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.plonetruegallery\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
 
 #. Default: "Name of Custom css file if you chose that above"
 #: ./__init__.py:37
 msgid "label_custom_style"
-msgstr ""
+msgstr "Navn på egendefinert css fil hvis du har valgt det."
 
 #. Default: "Height of the gallery"
 #: ./__init__.py:16
 msgid "label_s3_height"
-msgstr ""
+msgstr "Høyde på galleriet"
 
 #. Default: "Width of the (black) text box"
 #: ./__init__.py:20
 msgid "label_s3_textwidth"
-msgstr ""
+msgstr "Bredde på (svart) tekst boks"
 
 #. Default: "Width of the gallery"
 #: ./__init__.py:12
 msgid "label_s3_width"
-msgstr ""
+msgstr "Bredde på galleriet"
 
 #. Default: "s3slider"
 #: ./__init__.py:46
@@ -42,12 +44,12 @@ msgstr ""
 #. Default: "What stylesheet (css file) to use"
 #: ./__init__.py:24
 msgid "label_s3slider_style"
-msgstr ""
+msgstr "Hvilet stilark (CSS fil) skal brukes"
 
 #. Default: "Custom css file"
 #: ./__init__.py:32
 msgid "label_s3slider_style_custom"
-msgstr ""
+msgstr "Egendefinert CSS fil"
 
 #. Default: "Default"
 #: ./__init__.py:29

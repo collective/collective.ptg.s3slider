@@ -87,6 +87,12 @@ $(document).ready(function() {
 ul#s3sliderContent {
    width: %(width)s;
 }
+
+.s3sliderImage span {
+   height: %(height)s;
+   width: %(textwidth)s;
+}
+
 </style>
 <link rel="stylesheet" type="text/css" href="%(style)s"/>
 """ % {
