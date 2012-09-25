@@ -24,3 +24,7 @@ collective.ptg.s3slider.egg-info/entry_points.txt
 *s3slider.mo
 
 *.pyc
+
+dist/collective.ptg.s3slider-1.0.4.zip
+
+dist/collective.ptg.s3slider-1.0.5.zip

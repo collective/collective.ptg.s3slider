@@ -3,6 +3,7 @@ ul#s3sliderContent {
    top: 0;
    margin-left: 0;
    overflow: hidden !important;
+   padding: 0
 }
 
 .s3sliderImage {
