@@ -52,10 +52,14 @@ class S3sliderDisplayType(BaseDisplayType):
     src="%(portal_url)s/++resource++ptg.s3slider/s3Slider.js"></script>
 
 <script type="text/javascript">
+(function($){
+
 $(document).ready(function() {
    $('#s3slider').s3Slider({
       timeOut: %(delay)i
    });
+});
+
 })(jQuery);
 </script>
         """ % {
