@@ -1,10 +1,25 @@
 Changelog
 =========
 
+<<<<<<< HEAD
 1.0.5 (2012-09-25)
 ------------------
 
 - fixed css for padding on ul [espen]
+=======
+1.0.7 (2012-10-01)
+------------------
+
+- previous brown bag release...
+  [vangheem]
+
+
+1.0.6 (2012-10-01)
+------------------
+
+- fix js
+  [vangheem]
+>>>>>>> 32ba0fd0a1fde1193a5f96f65a0668499e5d598c
 
 
 1.0.5 (2012-07-26)
