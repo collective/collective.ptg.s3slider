@@ -1,11 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-<<<<<<< HEAD
-version = '1.0.6'
-=======
 version = '1.0.7'
->>>>>>> 32ba0fd0a1fde1193a5f96f65a0668499e5d598c
 
 setup(name='collective.ptg.s3slider',
       version=version,
