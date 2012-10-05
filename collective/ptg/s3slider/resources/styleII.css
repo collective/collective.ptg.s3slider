@@ -1,0 +1,45 @@
+/* @override http://localhost:8080/jtoo/++resource++ptg.s3slider/style.css */
+
+ul#s3sliderContent {
+   position: absolute;
+   top: 0;
+   margin-left: 0;
+   overflow: hidden !important;
+   padding: 0
+}
+
+.s3sliderImage {
+   float: left;
+   position: relative;
+   display: none;
+}
+
+.s3sliderImage span {
+   position: absolute;
+   right: 0;
+   font: 10px/15px Arial, Helvetica, sans-serif;
+   padding: 20px 13px;
+   background-color: #000;
+   color: #fff;
+   display: none;
+   top: 0;
+}
+
+ul#s3sliderContent li {
+    text-decoration: none;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+ul#s3sliderContent a {
+    text-decoration: none;
+}
+
+div.image-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.clear {
+   clear: both;
+}
