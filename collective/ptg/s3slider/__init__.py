@@ -20,6 +20,45 @@ class IS3sliderDisplaySettings(IBaseSettings):
         title=_(u"label_s3_textwidth",
             default=u"Width of the (black) text box"),
         default=u"150px")
+        
+    s3slider_overlay_opacity = schema.Choice(
+        title=_(u"label_s3slider_overlay_opacity",
+                default=u"Opacity on text overlay"),
+        default=70,
+        vocabulary=SimpleVocabulary([
+            SimpleTerm(0, 0,
+                _(u"label_s3slider_overlay_opacity0",
+                    default=u"0 Off")),
+            SimpleTerm(10, 10,
+                _(u"label_s3slider_overlay_opacity1",
+                    default=u"0.1 Light")),
+            SimpleTerm(20, 20,
+                _(u"label_s3slider_overlay_opacity2", default=u"0.2")),
+            SimpleTerm(30, 30,
+                _(u"label_s3slider_overlay_opacity3", default=u"0.3")),
+            SimpleTerm(40, 40,
+                _(u"label_s3slider_overlay_opacity4",
+                    default=u"0.4 Medium")),
+            SimpleTerm(50, 50,
+                _(u"label_s3slider_overlay_opacity5", default=u"0.5")),
+            SimpleTerm(60, 60,
+                _(u"label_s3slider_overlay_opacity6",
+                    default=u"0.6")),
+            SimpleTerm(70, 70,
+                _(u"label_s3slider_overlay_opacity7",
+                    default=u"0.7 Dark")),
+            SimpleTerm(80, 80,
+                _(u"label_s3slider_overlay_opacity8",
+                    default=u"0.8 Very Dark")),
+            SimpleTerm(90, 90,
+                _(u"label_s3slider_overlay_opacity9",
+                    default=u"0.9 Almost Black")),
+            SimpleTerm(99, 99,
+                _(u"label_s3slider_overlay_opacity10",
+                    default=u"1 Pitch Dark")
+            )
+        ]))
+        
     s3slider_style = schema.Choice(
         title=_(u"label_s3slider_style",
                 default=u"What stylesheet (css file) to use"),
@@ -28,6 +67,9 @@ class IS3sliderDisplaySettings(IBaseSettings):
             SimpleTerm("style.css", "style.css",
                 _(u"label_s3slider_style_default",
                     default=u"Default")),
+            SimpleTerm("styleII.css", "styleII.css",
+                _(u"label_s3slider_styleII",
+                    default=u"Right")),
             SimpleTerm("custom_style", "custom_style",
                 _(u"label_s3slider_style_custom",
                     default=u"Custom css file")
@@ -95,6 +137,10 @@ ul#s3sliderContent {
 .s3sliderImage span {
    height: %(height)s;
    width: %(textwidth)s;
+    filter: alpha(opacity=%(opacity)i);
+   -moz-opacity: 0.%(opacity)i;
+   -khtml-opacity: 0.%(opacity)i;
+   opacity: 0.%(opacity)i;
 }
 
 </style>
@@ -104,6 +150,7 @@ ul#s3sliderContent {
         'height': self.settings.s3_height,
         'width': self.settings.s3_width,
         'textwidth': self.settings.s3_textwidth,
+        'opacity': self.settings.s3slider_overlay_opacity,
         'style': style
        }
 S3sliderSettings = createSettingsFactory(S3sliderDisplayType.schema)
