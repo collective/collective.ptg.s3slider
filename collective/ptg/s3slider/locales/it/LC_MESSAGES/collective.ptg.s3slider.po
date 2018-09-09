@@ -3,8 +3,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-07-10 13:33+0000\n"
+"Project-Id-Version: collective.ptg.s3slider VERSION\n"
+"POT-Creation-Date: 2018-08-18 04:14+0000\n"
 "PO-Revision-Date: 2010-01-15\n"
 "Last-Translator: Busico Mirto Silvio <m.busico@ieee.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,10 @@ msgstr ""
 "Language-Code: it\n"
 "Language-Name: Italiano\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.s3slider\n"
 
 #. Default: "Name of Custom css file if you chose that above"
-#: ./__init__.py:37
+#: ./__init__.py:79
 msgid "label_custom_style"
 msgstr ""
 
@@ -38,22 +38,86 @@ msgid "label_s3_width"
 msgstr ""
 
 #. Default: "s3slider"
-#: ./__init__.py:46
+#: ./__init__.py:88
 msgid "label_s3slider_display_type"
 msgstr ""
 
+#. Default: "Opacity on text overlay"
+#: ./__init__.py:25
+msgid "label_s3slider_overlay_opacity"
+msgstr ""
+
+#. Default: "0 Off"
+#: ./__init__.py:30
+msgid "label_s3slider_overlay_opacity0"
+msgstr ""
+
+#. Default: "0.1 Light"
+#: ./__init__.py:33
+msgid "label_s3slider_overlay_opacity1"
+msgstr ""
+
+#. Default: "1 Pitch Dark"
+#: ./__init__.py:57
+msgid "label_s3slider_overlay_opacity10"
+msgstr ""
+
+#. Default: "0.2"
+#: ./__init__.py:36
+msgid "label_s3slider_overlay_opacity2"
+msgstr ""
+
+#. Default: "0.3"
+#: ./__init__.py:38
+msgid "label_s3slider_overlay_opacity3"
+msgstr ""
+
+#. Default: "0.4 Medium"
+#: ./__init__.py:40
+msgid "label_s3slider_overlay_opacity4"
+msgstr ""
+
+#. Default: "0.5"
+#: ./__init__.py:43
+msgid "label_s3slider_overlay_opacity5"
+msgstr ""
+
+#. Default: "0.6"
+#: ./__init__.py:45
+msgid "label_s3slider_overlay_opacity6"
+msgstr ""
+
+#. Default: "0.7 Dark"
+#: ./__init__.py:48
+msgid "label_s3slider_overlay_opacity7"
+msgstr ""
+
+#. Default: "0.8 Very Dark"
+#: ./__init__.py:51
+msgid "label_s3slider_overlay_opacity8"
+msgstr ""
+
+#. Default: "0.9 Almost Black"
+#: ./__init__.py:54
+msgid "label_s3slider_overlay_opacity9"
+msgstr ""
+
 #. Default: "What stylesheet (css file) to use"
-#: ./__init__.py:24
+#: ./__init__.py:63
 msgid "label_s3slider_style"
 msgstr ""
 
+#. Default: "Right"
+#: ./__init__.py:71
+msgid "label_s3slider_styleII"
+msgstr ""
+
 #. Default: "Custom css file"
-#: ./__init__.py:32
+#: ./__init__.py:74
 msgid "label_s3slider_style_custom"
 msgstr ""
 
 #. Default: "Default"
-#: ./__init__.py:29
+#: ./__init__.py:68
 msgid "label_s3slider_style_default"
 msgstr ""
-
