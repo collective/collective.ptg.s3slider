@@ -33,9 +33,8 @@ msgstr "Alto de la galería"
 
 #. Default: "Width of the (black) text box"
 #: ./__init__.py:20
-#, fuzzy
 msgid "label_s3_textwidth"
-msgstr "Ancho de la caja del texto (negro)"
+msgstr "Ancho del cuadro de texto (negro)"
 
 #. Default: "Width of the gallery"
 #: ./__init__.py:12
@@ -49,9 +48,8 @@ msgstr "s3slider"
 
 #. Default: "Opacity on text overlay"
 #: ./__init__.py:25
-#, fuzzy
 msgid "label_s3slider_overlay_opacity"
-msgstr "Opacidad en texto "
+msgstr "Opacidad en la superposición de texto"
 
 #. Default: "0 Off"
 #: ./__init__.py:30
@@ -65,7 +63,6 @@ msgstr "0.1 Ligero"
 
 #. Default: "1 Pitch Dark"
 #: ./__init__.py:57
-#, fuzzy
 msgid "label_s3slider_overlay_opacity10"
 msgstr "1 Muy Oscuro"
 
@@ -107,7 +104,7 @@ msgstr "0.8 Muy Oscuro"
 #. Default: "0.9 Almost Black"
 #: ./__init__.py:54
 msgid "label_s3slider_overlay_opacity9"
-msgstr "0.9 Casí Negro"
+msgstr "0.9 Casi Negro"
 
 #. Default: "What stylesheet (css file) to use"
 #: ./__init__.py:63
