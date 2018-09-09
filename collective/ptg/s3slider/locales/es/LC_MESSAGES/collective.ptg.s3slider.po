@@ -1,59 +1,130 @@
 # --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
 # Diego Rubert, 2009.
+# Enrique Pérez <eperez@yaco.es>, 2009.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: collective.plonetruegallery\n"
-"POT-Creation-Date: 2012-07-10 13:33+0000\n"
-"PO-Revision-Date: 2009-05-19 16:17-0400\n"
-"Last-Translator: Enrique Pérez <eperez@yaco.es>\n"
-"Language-Team: Spanish <>\n"
+"Project-Id-Version: collective.ptg.s3slider\n"
+"POT-Creation-Date: 2018-08-18 04:14+0000\n"
+"PO-Revision-Date: 2018-09-08 20:55-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish Team\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 "Language-Code: es\n"
 "Language-Name: Español\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
-"X-Generator: Lokalize 0.3\n"
+"Domain: collective.ptg.s3slider\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
 #. Default: "Name of Custom css file if you chose that above"
-#: ./__init__.py:37
+#: ./__init__.py:79
 msgid "label_custom_style"
-msgstr ""
+msgstr "Nombre de archivo css Personalizado si usted elige eso arriba"
 
 #. Default: "Height of the gallery"
 #: ./__init__.py:16
 msgid "label_s3_height"
-msgstr ""
+msgstr "Alto de la galería"
 
 #. Default: "Width of the (black) text box"
 #: ./__init__.py:20
+#, fuzzy
 msgid "label_s3_textwidth"
-msgstr ""
+msgstr "Ancho de la caja del texto (negro)"
 
 #. Default: "Width of the gallery"
 #: ./__init__.py:12
 msgid "label_s3_width"
-msgstr ""
+msgstr "Ancho de la galería"
 
 #. Default: "s3slider"
-#: ./__init__.py:46
+#: ./__init__.py:88
 msgid "label_s3slider_display_type"
-msgstr ""
+msgstr "s3slider"
+
+#. Default: "Opacity on text overlay"
+#: ./__init__.py:25
+#, fuzzy
+msgid "label_s3slider_overlay_opacity"
+msgstr "Opacidad en texto "
+
+#. Default: "0 Off"
+#: ./__init__.py:30
+msgid "label_s3slider_overlay_opacity0"
+msgstr "0 Apagado"
+
+#. Default: "0.1 Light"
+#: ./__init__.py:33
+msgid "label_s3slider_overlay_opacity1"
+msgstr "0.1 Ligero"
+
+#. Default: "1 Pitch Dark"
+#: ./__init__.py:57
+#, fuzzy
+msgid "label_s3slider_overlay_opacity10"
+msgstr "1 Muy Oscuro"
+
+#. Default: "0.2"
+#: ./__init__.py:36
+msgid "label_s3slider_overlay_opacity2"
+msgstr "0.2"
+
+#. Default: "0.3"
+#: ./__init__.py:38
+msgid "label_s3slider_overlay_opacity3"
+msgstr "0.3"
+
+#. Default: "0.4 Medium"
+#: ./__init__.py:40
+msgid "label_s3slider_overlay_opacity4"
+msgstr "0.4 Medio"
+
+#. Default: "0.5"
+#: ./__init__.py:43
+msgid "label_s3slider_overlay_opacity5"
+msgstr "0.5"
+
+#. Default: "0.6"
+#: ./__init__.py:45
+msgid "label_s3slider_overlay_opacity6"
+msgstr "0.6"
+
+#. Default: "0.7 Dark"
+#: ./__init__.py:48
+msgid "label_s3slider_overlay_opacity7"
+msgstr "0.7 Oscuro"
+
+#. Default: "0.8 Very Dark"
+#: ./__init__.py:51
+msgid "label_s3slider_overlay_opacity8"
+msgstr "0.8 Muy Oscuro"
+
+#. Default: "0.9 Almost Black"
+#: ./__init__.py:54
+msgid "label_s3slider_overlay_opacity9"
+msgstr "0.9 Casí Negro"
 
 #. Default: "What stylesheet (css file) to use"
-#: ./__init__.py:24
+#: ./__init__.py:63
 msgid "label_s3slider_style"
-msgstr ""
+msgstr "¿Cual hoja de estilo (archivo css) para usar?"
+
+#. Default: "Right"
+#: ./__init__.py:71
+msgid "label_s3slider_styleII"
+msgstr "Derecho"
 
 #. Default: "Custom css file"
-#: ./__init__.py:32
+#: ./__init__.py:74
 msgid "label_s3slider_style_custom"
-msgstr ""
+msgstr "Archivo css personalizado"
 
 #. Default: "Default"
-#: ./__init__.py:29
+#: ./__init__.py:68
 msgid "label_s3slider_style_default"
-msgstr ""
-
+msgstr "Predeterminado"
